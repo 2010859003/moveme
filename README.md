@@ -7,3 +7,11 @@ inside a town, to different towns or even countries.
 
 To start the application for development go to the Class `fh.burgenland.moveme.MovemeApplication` and run the `main` method with your IDE.
 
+## Start Tests in Gradle
+To start the Test in Gradle type "./gradlew test" into the Console.
+
+## Create Build with Artifect in Gradle
+To start a build with an artifect-output type "./gradlew build" into the Console.
+You find the files under ./build/libs
+
+##
