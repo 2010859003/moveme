@@ -17,6 +17,6 @@ To start a build with an artifect-output type "./gradlew build" into the Console
 You find the files under ./build/libs
 
 ##.editorconfig
-Your will find predefined editor settings in the ".editorconfig"-File in project root.
+You will find predefined editor settings in the ".editorconfig"-File in project root.
 You can edit it to change and define the formatting conventions for your textual files in
 the project.
