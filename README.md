@@ -21,3 +21,14 @@ You find the files under ./build/libs
 You will find predefined editor settings in the ".editorconfig"-File in project root.
 You can edit it to change and define the formatting conventions for your textual files in
 the project.
+
+##Spotless
+
+to use Spotless the plugin was added in the "build.gradle"-File under the point "plugins"
+--> id 'com.diffplug.spotless' version '6.1.2'
+
+then the configuration-section "Spotless" was added by the end of the file (build.gradle)
+
+If './gradlew build' is startet, the procedure will break because of miss-formatations
+
+The commande './gradlew spotlessApply' automatically reformats the bad sections.
