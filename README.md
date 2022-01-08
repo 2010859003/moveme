@@ -31,4 +31,6 @@ then the configuration-section "Spotless" was added by the end of the file (buil
 
 If './gradlew build' is startet, the procedure will break because of miss-formatations
 
-The commande './gradlew spotlessApply' automatically reformats the bad sections.
+The command './gradlew spotlessCheck' checks for bad sections.
+
+The command './gradlew spotlessApply' automatically reformats the bad sections.
